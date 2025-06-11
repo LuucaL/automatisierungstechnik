@@ -1,3 +1,22 @@
+# Projektstruktur und Beschreibung
+
+```
+code/1_persitierung/
+├── visualisierung/
+│   ├── visualisierung.py    # Enthält Funktionen zur Darstellung und Analyse von Visualisierungen
+│   └── __init__.py          # Ermöglicht den Import innerhalb des Ordners
+├── database/
+│   ├── database.py          # Stellt Funktionen für den Datenbankzugriff bereit
+│   ├── transform.py         # Beinhaltet Logik zur Transformation von Daten
+│   ├── data.csv             # Beispiel-Datensatz für Datenbanktests
+│   └── __init__.py          # Ermöglicht den Import innerhalb des Ordners
+├── mqtt_client/
+│   ├── mqtt_client.py       # Enthält Funktionen zur MQTT-Kommunikation
+│   └── __init__.py          # Ermöglicht den Import innerhalb des Ordners
+├── README.md                # Allgemeine Projektinformationen und Anleitung
+└── requirements.txt         # Listet die benötigten Python-Pakete für das Projekt auf
+```
+
 ## Kapitel: Regressionsmodell für Endgewicht
 
 ### Übersicht
